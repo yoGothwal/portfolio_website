@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogendra Gothwal - Portfolio</title>
+    <link rel="stylesheet" href="portfolio_css.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Hi, I'm <span>Yogendra Gothwal</span></h1>
+      <p>
+        A software developer passionate about technology, research and problem
+        solving
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="your-photo.jpg" alt="Your Name" />
+        <p>Write a brief introduction about yourself here...</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <!-- Project 1: HTML/CSS/JS Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/csshtmllogo.jpg" alt="HTML/CSS/JS Project" />
+          </div>
+          <div class="project-details">
+            <h3>HTML/CSS/JavaScript Project</h3>
+            <p>
+              A responsive website built with core web technologies
+              demonstrating modern frontend techniques.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/yourusername/project1"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a
+                href="https://yourproject1-live-demo.com"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: NoteApp -->
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="images/expresslogo.png"
+              alt="NoteApp"
+              style="height: 250px"
+            />
+          </div>
+          <div class="project-details">
+            <h3>NoteApp</h3>
+            <p>
+              A full-stack note-taking application with user authentication and
+              database storage.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">JWT Auth</span>
+              <span class="tech-tag">bcryptjs</span>
+              <span class="tech-tag">Mongoose</span>
+              <span class="tech-tag">Testing</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/yoGothwal/backend"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> Backend Code
+              </a>
+              <a
+                href="https://backend-2-dgny.onrender.com/"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: React Frontend -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/reactlogo.png" alt="React Project" />
+          </div>
+          <div class="project-details">
+            <h3>React Application</h3>
+            <p>
+              A modern single-page application built with React ecosystem tools
+              and libraries.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">Material UI</span>
+              <span class="tech-tag">Axios</span>
+              <span class="tech-tag">React Router</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/yoGothwal/frontend"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> Frontend Code
+              </a>
+              <!-- <a
+                href="https://frontend-4-te7v.onrender.com/signup"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <!-- Skill bars or icons will go here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
