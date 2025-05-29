@@ -8,8 +8,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="navbar">
+        <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -166,12 +166,56 @@
 
     <section id="contact">
       <h2>Get In Touch</h2>
-      <form id="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/movwaazj"
+        method="POST"
+        autocomplete="off"
+      >
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn-send">Send Message</button>
       </form>
+      <div class="contact-links">
+        <a
+          href="https://www.linkedin.com/in/your-linkedin-username"
+          target="_blank"
+          class="contact-link"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a
+          href="https://www.instagram.com/your-instagram-username"
+          target="_blank"
+          class="contact-link"
+        >
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </div>
     </section>
 
     <footer>

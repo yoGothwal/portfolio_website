@@ -11,6 +11,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
+
 // Form submission handling
 const form = document.getElementById('contact-form');
 form.addEventListener('submit', function (e) {
